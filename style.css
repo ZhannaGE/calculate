@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/image/iphone.png");
+    background-repeat: no-repeat;
+    background-size: 1083px 963px;
+    /*background-position-x: 27%;*/
+    /*background-position-y: 172%;*/
+}
+
+.calculator {
+    width: 387px;
+    height: auto;
+    background-color: black;
+    /* margin: 150px auto; */
+    margin-left: 348px;
+    margin-top: 131px;
+    border-radius: 46px;
+    padding: 10px;
+    /*box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,*/
+    /*rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;*/
+}
+
+.display {
+    color: white;
+    font-size: 70px;
+    text-align: end;
+    padding-top: 95px;
+    word-wrap: break-word;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 25px 25px;
+    width: 20%;
+    margin: 10px 7px;
+    font-size: 26px;
+    background-color: rgba(128, 128, 128, 0.372);
+}
+
+.zero-btn {
+    padding: 30px 142px 26px 20px;
+}
+
+.btn-orange {
+    background-color: orange;
+}
+
+.btn-grey {
+    background-color: grey;
+}
